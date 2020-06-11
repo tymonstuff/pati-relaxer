@@ -32,9 +32,7 @@ body {
   align-items: center;
   margin: 0;
 
-  background-size:     contain;                      /* <------ */
-  background-repeat:   no-repeat;
-  background-position: center center;
+  object-fit: fill;
 }
 
 .container {
@@ -131,4 +129,6 @@ body {
   to {
     transform: scale(1);
   }
+
+  
 }
